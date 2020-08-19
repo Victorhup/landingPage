@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+h1, h2, h4, a, label{
+
+   font-family: 'Alata', sans-serif;
+}
+
+h1 {
+   margin-top: 80px;
+}
+
+nav {
+   width: 100%;
+   background-color: #d45f68;
+   position: fixed;
+   top: 0;
+   z-index: 100;
+   
+}
+
+nav ul{
+   text-align: center;
+   display: flex;
+   justify-content: flex-end;
+   padding: 0px;
+}
+
+nav a{
+   padding: 10px 20px;
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 14pt;
+}
+
+nav a:hover{
+   color: black;
+}
+
+#logoGen{
+   width: 70px;
+   height: 30px;
+   margin-right: 400px;
+}
+
+#sobreGen{
+   margin-right: 100px;
+   margin-left: 100px;
+}
+
+#bg-sobre{
+   background-image: linear-gradient( rgb(255, 255, 255, 1), rgb(255, 255, 255, 0.2) )
+}
+
+#container-sobreGen{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.text-center{
+   text-align: center;
+}
+
+#texto-sobreGen{
+   margin-right: 10px;
+}
+
+#video-sobreGen{
+   margin-left: 10px;
+}
+
+#img-react{
+   width: 400px;
+   height: 300px;
+}
+
+#container-sobreCurso{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+}
+
